@@ -1,0 +1,197 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #FEFEFE;
+}
+
+.logoimage {
+	width: 960px; 
+	height: 152px; 
+    background: url(images/Logo_valk-oranssi_eireunoja_transp_copy.png) no-repeat; 
+	background-position: left center;
+}
+
+#wrapper {
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+#top {
+	overflow: hidden;
+	background-color: #000000;
+}
+#sali img {
+	max-width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+h1 ,h2 {
+	color: /*#FFFFFF; */ /*#F39325*/ #FF6600;;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: medium;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-indent: 12px;
+}
+
+#main {
+	width: 68%;
+	float: left;
+}
+
+
+figure {
+	display: block;
+	width: auto;
+}
+figure img {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+	padding-top: 0px;
+}
+
+figcaption {
+	font-size: 0.875em;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: 0.5em;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.floatright {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+footer {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3%;
+	background-color: #43A6CB;
+	color: #000000;
+	clear: left;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #FF944C;
+
+}
+a:hover, a:active, a:focus {
+	color: #FEFEFE;
+	text-decoration: underline;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#mainnav a {
+	width: 25%;
+	display: block;
+	float: left;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #4D4D4D;
+	color: #FFFFFF;
+	clear: none;
+}
+#mainnav a:hover, #mainnav a:focus ,#mainnav a:active ,#mainnav a.thispage{
+	background-color: #43A6CB;
+	text-decoration: none;
+}
+#ct {
+	width: 30%;
+	float: left;
+}
+#ryhmaliikunta {
+	width: 30%;
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#kuntosali {
+	float: left;
+	width: 30%;
+}
+#main figure img {
+	padding: none;
+	width: 80%;
+}
+#sali article {
+	width: 36%;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	color: #FFFFFF;
+	background-color: hsla(32,90%,55%,1.00);
+	border-radius: 17px;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	top: 46%;
+	right: 19%;
+}
+#sali {
+	position: relative;
+}
+#sidebar {
+	width: 30%;
+	float: right;
+	background-color: hsla(0,0%,100%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	padding-left: 1%;
+	padding-right: 1%;
+}
+#sidebar h2 a {
+	color: hsla(0,0%,100%,1.00);
+	font-size: small;
+}
+#sidebar h1 a {
+	color: hsla(0,0%,100%,1.00);
+	font-size: small;
+}
+#sidebar #fbdataheader  {
+	top: 1em;
+	float: left;
+}
+#sidebar.fb-like {
+}
+#mainnav {
+}
+p#ad {
+	padding-left: 20px;
+}
