@@ -9,25 +9,22 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
+	padding-top: 21px;
 }
 
 header#page {
-
-  color: #bfbfbf;
-  margin-bottom: 30px;
-  
-  padding-top: 1px;
-  margin-top: -1px;
-
-    background-color: #515151; /* Old browsers */
-    background-image: -moz-linear-gradient(top, #515151 0%, #0d0d0d 100%); /* FF3.6+ */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#515151), color-stop(100%,#0d0d0d)); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(top, #515151 0%,#0d0d0d 100%); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(top, #515151 0%,#0d0d0d 100%); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(top, #515151 0%,#0d0d0d 100%); /* IE10+ */
-    background-image: linear-gradient(top, #515151 0%,#0d0d0d 100%); /* W3C */
+	color: #bfbfbf;
+	padding-top: 1px;
+	margin-top: -1px;
+	background-color: #515151; /* Old browsers */
+	background-image: -moz-linear-gradient(top, #515151 0%, #0d0d0d 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#515151), color-stop(100%,#0d0d0d)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, #515151 0%,#0d0d0d 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(top, #515151 0%,#0d0d0d 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(top, #515151 0%,#0d0d0d 100%); /* IE10+ */
+	background-image: linear-gradient(top, #515151 0%,#0d0d0d 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', endColorstr='#0d0d0d',GradientType=0 ); /* IE6-9 */ 
 
 }
@@ -98,7 +95,8 @@ ol.slats li h3 {
 	}
 
 ol.slats li p {
-    margin: 0px;
+	margin: 0px;
+	font-size: large;
 	}
 
 ol.slats li p span.meta {
@@ -227,42 +225,52 @@ form input[type="submit"]:active {
 /* ----------------------- HEADER CSS ------------------------------ */
  
 
-.logo div {
+div.logo {
 	float: left;
+	margin-left: auto;
+	/* [disabled]border: thin none rgba(254,254,254,1.00); */
+	/*width: 960px;*/
+	/*background-image: url(../images/VSO_logo.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 152px;*/
 }
 
 .logo h3 {
-	font-family: "Myriad Pro", "Myriad-Pro", "myriad-pro", Helvetica, Arial, sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	position: relative;
-	margin: 0;
-	padding: 0;
-	float: left;
-	color: rgba(254,254,254,1.00);
+	color: rgba(9,7,8,1.00);
 	text-transform: uppercase;
-	font-size: medium;
+	font-size: x-large;
+	left: 0%;
+	float: left;
+	top: 83%;
 }
 
 .logo h3 a {
 	color: #FEFEFE;
 	font-weight: normal;
 	text-decoration: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 .logo h3 a:visited  {
 	color: #FEFEFE;
 	font-weight: normal;
 	text-decoration: none;
-}
-
-nav.menu
-{
-  /*float: left*/;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
 nav.menu ul {
-  margin: 0px;
-  padding: 0px;
-  position: relative;
-  list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	position: relative;
+	float: right;
+	clear: left;
+	padding-top: 8px;
 }
 
 nav.menu ul li {
@@ -273,13 +281,20 @@ nav.menu ul li {
 }
 
 nav.menu ul li a {
-  display: block;
-  padding: 6px 10px 4px;
-  margin: 13px 5px;
-  font-size: 14px;
-  font-weight:bold;
-  text-decoration: none;
-  color: #BFBFBF;
+	display: block;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 6px;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #BFBFBF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 
 nav.menu ul li a:hover {
@@ -381,7 +396,7 @@ footer p {
       }
 
       nav.menu.full {
-        display: none;
+	display: none;
       }
       
       nav.menu.dropdown {

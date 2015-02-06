@@ -25,17 +25,12 @@ body {
 	overflow: hidden;
 	background-color: #000000;
 }
-#sali img {
-	max-width: 100%;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	padding-top: 0px;
-}
+
 h1 ,h2 {
-	color: /*#FFFFFF; */ /*#F39325*/ #FF6600;;
+	color: /*#FFFFFF; */ /*#F39325*/ #FF6600;
+	;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: medium;
+	font-size: x-large;
 	font-weight: 600;
 }
 
@@ -49,7 +44,7 @@ h1 {
 }
 
 #main {
-	width: 68%;
+	width: 100%;
 	float: left;
 }
 
@@ -92,7 +87,7 @@ footer {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 3%;
-	background-color: #43A6CB;
+	background-color: #FEFEFE;
 	color: #000000;
 	clear: left;
 }
@@ -152,7 +147,7 @@ a:hover, a:active, a:focus {
 	padding: none;
 	width: 80%;
 }
-#sali article {
+/*#sali article {
 	width: 36%;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -164,10 +159,54 @@ a:hover, a:active, a:focus {
 	padding-bottom: 7px;
 	top: 46%;
 	right: 19%;
+}*/
+
+#sali header {
+	width: 24%;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	color: #FFFFFF;
+	background-color: #F29224;
+	border-radius: 17px;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	top: 16%;
+	right: 8%;
+	font-size: large;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
+
+#sali img {
+	max-width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
 #sali {
 	position: relative;
 }
+.news article  {
+	position: absolute;
+	border-radius: 17px;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	top: 6%;
+}
+.news article header {
+	z-index: auto;
+	text-align: center;
+	border-radius: 15px;
+	text-shadow: 0px 0px;
+	color: rgba(254,254,254,1.00);
+}
+.smaller {
+	font-weight: normal;
+}
+
 #sidebar {
 	width: 30%;
 	float: right;
@@ -188,10 +227,21 @@ a:hover, a:active, a:focus {
 	top: 1em;
 	float: left;
 }
+
 #sidebar.fb-like {
 }
-#mainnav {
-}
+
 p#ad {
 	padding-left: 20px;
+}
+.news article header h2 {
+	color: rgba(254,254,254,1.00);
+}
+.news .meta  {
+	padding-left: 0px;
+	color: rgba(0,0,0,1.00);
+	float: left;
+}
+.retard {
+	border-color: rgba(238,21,21,1.00);
 }
