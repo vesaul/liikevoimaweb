@@ -121,7 +121,7 @@ form fieldset.form-actions {
 form fieldset.check {
 	padding-left: 20%;	
 	}
-form fieldset label {
+    form fieldset label {
 	float: left;
 	width: 20%;
 	margin: 4px 0 5px 0;
@@ -264,7 +264,7 @@ div.logo {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
-nav.menu ul {
+.menu ul {
 	list-style-type: none;
 	list-style-image: none;
 	position: relative;
@@ -273,14 +273,14 @@ nav.menu ul {
 	padding-top: 8px;
 }
 
-nav.menu ul li {
+.menu ul li {
   float: left;
   margin-bottom: 0;
   position: relative;
   z-index: 10;
 }
 
-nav.menu ul li a {
+.menu ul li a {
 	display: block;
 	padding-top: 3px;
 	padding-right: 10px;
@@ -297,11 +297,11 @@ nav.menu ul li a {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 
-nav.menu ul li a:hover {
+.menu ul li a:hover {
     color: #fff;
 }
 
-nav.menu ul > li.selected a {
+.menu ul > li.selected a {
   background-color: white;
   color: black;
   -webkit-border-radius: 4px;
@@ -309,14 +309,14 @@ nav.menu ul > li.selected a {
   border-radius: 4px;
 }
 
-nav.menu.dropdown > ul > li > a {
+.menu.dropdown > ul > li > a {
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-nav.menu.dropdown ul li ul {
+.menu.dropdown ul li ul {
   display: none;
   position: absolute;
   right:-10px;
@@ -337,11 +337,11 @@ nav.menu.dropdown ul li ul {
            
 }
 
-nav.menu.dropdown ul li ul li {
+.menu.dropdown ul li ul li {
   float: none;
 }
 
-nav.menu.dropdown {
+.menu.dropdown {
   display: none;
 }
 
@@ -395,11 +395,11 @@ footer p {
         max-height: 100%;
       }
 
-      nav.menu.full {
+      .menu.full {
 	display: none;
       }
       
-      nav.menu.dropdown {
+      .menu.dropdown {
         display: block;
       }
   
@@ -407,7 +407,7 @@ footer p {
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
       
-      nav.menu.dropdown ul li ul {
+      .menu.dropdown ul li ul {
         right: -10px;
         width: 440px;
       }
